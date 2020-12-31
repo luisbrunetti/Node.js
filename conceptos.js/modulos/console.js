@@ -25,6 +25,8 @@ console.log("Adios");
 console.groupEnd("Conver")
 console.log("Otra funciión");
 */
+
+///Console groupf
 function function1(){
     //
     console.group("funcion1");
@@ -50,3 +52,4 @@ console.count("veces");
 console.count("veces");
 console.count("veces");
 console.countReset("veces");console.count("veces");
+//
