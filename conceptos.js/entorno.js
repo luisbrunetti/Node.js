@@ -10,3 +10,14 @@ let web = process.env.web || "No tengo web";
 */
 console.log("hola "+nombre);
 console.log("Mi web es "+ web);
+ 
+// sudo npm install -g nodemon
+//Nodemon se ejecuta cuando hagas un cambio
+// sirve demasiado cuando se  tiene procesos que demoran en ejecutarse
+// UN ejemlpo mas complejo en pm2 que se utiliza para producción
+//NO USAR NODEMON PARA ENTORNOS DE PRODUCCIÓON PORQUE DARAS MAS PROBLEMAS QUE SOLUCIONES
+// sudo npm install -g pm2
+// pm2 start entorno.js 
+console.log("asdklñ");
+console.log("pm2");
+console.log("pm2");
